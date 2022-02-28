@@ -29,10 +29,10 @@
     </div>
 
     <!--/Immagini-->
-    <div class="immagini">
+    <div>
 
-      <img src="img/tim-1.jpg" alt="tim1">
-      <img src="img/tim-2.jpg" alt="tim2">
+      <img class="immagini" src="img/tim-1.jpg" alt="tim1">
+      <img class="immagini" src="img/tim-2.jpg" alt="tim2">
       <p>1st Photo: John S and James S  <br>
         2nd Photo: Wikimedia by Paul Klarke
       </p>
@@ -61,26 +61,36 @@
     <!--/Tabella-->
     <div class="tabella articolo">
       <table>
-        
+
           <thead id="intestazione">
             <tr>
-              <th>Lorem, ipsum dolor.</th>
-              <th>Lorem, ipsum dolor.</th>
-              <th>Lorem, ipsum dolor.</th>
+              <th id="colonna-uno">Lorem, ipsum dolor.</th>
+              <th id="colonna-due">Lorem, ipsum dolor.</th>
+              <th id="colonna-tre">Lorem, ipsum dolor.</th>
             </tr>
           </thead>
 
-          <tbody>
+          <tbody class="riga uno">
             <tr>
               <td>Lorem, ipsum dolor.</td>
               <td>Lorem, ipsum dolor.</td>
-              <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi dolorem repellat voluptatum ducimus tempora recusandae libero voluptatem magnam dolores?</td>
+              <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo quia molestias quisquam esse nemo, laboriosam architecto quibusdam culpa optio, est distinctio sequi ipsum perferendis nulla provident sunt dolore corporis suscipit nisi corrupti commodi. Dolore veritatis aperiam cupiditate aliquid perspiciatis voluptatibus velit autem inventore nam, alias tempore commodi consequuntur libero!
             </tr>
-            <tfoot>
+          </tbody>
+
+          <tbody class="riga due">
+            <tr>
+              <td>Lorem, ipsum dolor.</td>
+              <td>Lorem, ipsum dolor.</td>
+              <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo quia molestias quisquam esse nemo, laboriosam architecto quibusdam culpa optio, est distinctio sequi ipsum perferendis nulla provident sunt dolore corporis suscipit nisi corrupti commodi. Dolore veritatis aperiam cupiditate aliquid perspiciatis voluptatibus velit autem inventore nam, alias tempore commodi consequuntur libero!
+            </tr>
+          </tbody>
+
+            <tfoot class="riga tre">
               <tr>
                <td>Lorem, ipsum dolor.</td>
                <td>Lorem, ipsum dolor.</td>
-               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi dolorem repellat voluptatum ducimus tempora recusandae libero voluptatem magnam dolores?</td>
+               <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo quia molestias quisquam esse nemo, laboriosam architectoquibusdam culpa optio, est distinctio sequi ipsum perferendis nulla provident sunt dolore corporis suscipit nisi corrupti commodi. Dolore veritatis aperiam cupiditate aliquid perspiciatis voluptatibus velit autem inventore nam, alias tempore commodi consequuntur libero!</td>
               </tr>
             </tfoot>
      
@@ -97,9 +107,21 @@
   </main>
 
   <!--/Potrebbero interessarti-->
-  <footer>
-    
+  <footer class="footer articolo">
 
+    <h3>Potrebbero interessarti</h3>
+    <br>
+    <div class="correlati">
+      <p class="over">Lorem Ipsum</p>
+      <img src="img/graph.jpg" alt="Graph">
+    </div>
+        
+    <div class="correlati">
+      <img src="img/monitor.jpg" alt="Monitor">
+      <p class="over">Lorem Ipsum</p>
+      
+    </div>
+    
   </footer>
   
 </body>

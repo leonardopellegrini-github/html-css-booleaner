@@ -1,5 +1,6 @@
 *{
   margin: 0px;
+  font-family: 'Times New Roman', Times, serif
 }
 
 header{
@@ -19,7 +20,7 @@ header{
   padding-bottom: 20px;
 }
 
-h4, h5{
+h3, h4, h5{
   color: grey;
 }
 
@@ -35,11 +36,30 @@ h4, h5{
   width: 100%;
 }
 
+#colonna-uno, #colonna-due{
+  width: 25%;
+}
+
 #intestazione{
   color: white;
   background-color: #31BEFF;
+  text-align: left;
 }
 
-tbody{
-  
+.uno, .tre{
+  background-color: aqua;
+}
+
+.correlati{
+  position: relative;
+  text-align: left;
+  color: white;  
+}
+
+.over {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 20px;
+  font-weight: 700;
 }
