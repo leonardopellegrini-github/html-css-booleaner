@@ -1,9 +1,45 @@
+*{
+  margin: 0px;
+}
+
 header{
-  background-image: url(IMG/pattern.png);
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  background-color: rgb(49, 190, 255);
 }
 
 #logo{
   width: 20%;
   height: 20%;
   padding-top: 25px;
+}
+
+.articolo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h4, h5{
+  color: grey;
+}
+
+.link{
+  color:#31BEFF;
+}
+
+.evidenzia{
+  background-color: yellow;
+}
+
+.tabella{
+  width: 100%;
+}
+
+#intestazione{
+  color: white;
+  background-color: #31BEFF;
+}
+
+tbody{
+  
 }
