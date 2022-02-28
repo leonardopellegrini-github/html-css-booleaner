@@ -1,0 +1,9 @@
+header{
+  background-image: url(IMG/pattern.png);
+}
+
+#logo{
+  width: 20%;
+  height: 20%;
+  padding-top: 25px;
+}
