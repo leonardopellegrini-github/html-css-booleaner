@@ -1,6 +1,5 @@
 *{
   margin: 1px;
-  font-family: 'Times New Roman', Times, serif
 }
 
 header{
@@ -56,6 +55,12 @@ h3, h4, h5{
 .riga-uno, .riga-tre{
   background-color: aqua;
 }
+
+table{
+  border: 0px;
+  border-spacing: 0;
+}
+
 
 .correlati{
   position: relative;
