@@ -1,5 +1,5 @@
 *{
-  margin: 0px;
+  margin: 1px;
   font-family: 'Times New Roman', Times, serif
 }
 
@@ -28,11 +28,18 @@ h3, h4, h5{
   color:#31BEFF;
 }
 
+#immagineuno{
+  width: 50%;
+}
+#immaginedue{
+  width: 43%;
+}
+
 .evidenzia{
   background-color: yellow;
 }
 
-.tabella{
+.tabella, #riga-immagini{
   width: 100%;
 }
 
@@ -46,7 +53,7 @@ h3, h4, h5{
   text-align: left;
 }
 
-.uno, .tre{
+.riga-uno, .riga-tre{
   background-color: aqua;
 }
 
